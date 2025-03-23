@@ -1,0 +1,186 @@
+[
+  {
+    "model_name": "BertLMHeadModel",
+    "num_threads": 1,
+    "max_ram_mb": null,
+    "example_index": 0,
+    "cpu_usage_before": 41.7,
+    "cpu_usage_after": 97.3,
+    "mem_usage_before": 3401310208,
+    "mem_usage_after": 3373506560,
+    "elapsed_time_s": 1.1338191032409668,
+    "is_correct": 0,
+    "input_text": "Solve 24 = 1601*c - 1605*c for c.\\n",
+    "reference_solution": "-6",
+    "generated_text": [
+      {
+        "score": 0.6230772137641907,
+        "token": 1012,
+        "token_str": ".",
+        "sequence": "solve 24 = 1601 * c - 1605 * c for c. \\ n solution :."
+      },
+      {
+        "score": 0.19636833667755127,
+        "token": 1025,
+        "token_str": ";",
+        "sequence": "solve 24 = 1601 * c - 1605 * c for c. \\ n solution : ;"
+      },
+      {
+        "score": 0.1453438252210617,
+        "token": 1064,
+        "token_str": "|",
+        "sequence": "solve 24 = 1601 * c - 1605 * c for c. \\ n solution : |"
+      },
+      {
+        "score": 0.024775968864560127,
+        "token": 1029,
+        "token_str": "?",
+        "sequence": "solve 24 = 1601 * c - 1605 * c for c. \\ n solution :?"
+      },
+      {
+        "score": 0.007759165950119495,
+        "token": 999,
+        "token_str": "!",
+        "sequence": "solve 24 = 1601 * c - 1605 * c for c. \\ n solution :!"
+      }
+    ]
+  },
+  {
+    "model_name": "BertLMHeadModel",
+    "num_threads": 2,
+    "max_ram_mb": null,
+    "example_index": 0,
+    "cpu_usage_before": 74.1,
+    "cpu_usage_after": 97.6,
+    "mem_usage_before": 3404648448,
+    "mem_usage_after": 3417247744,
+    "elapsed_time_s": 1.438730239868164,
+    "is_correct": 0,
+    "input_text": "Solve 24 = 1601*c - 1605*c for c.\\n",
+    "reference_solution": "-6",
+    "generated_text": [
+      {
+        "score": 0.623077929019928,
+        "token": 1012,
+        "token_str": ".",
+        "sequence": "solve 24 = 1601 * c - 1605 * c for c. \\ n solution :."
+      },
+      {
+        "score": 0.1963679939508438,
+        "token": 1025,
+        "token_str": ";",
+        "sequence": "solve 24 = 1601 * c - 1605 * c for c. \\ n solution : ;"
+      },
+      {
+        "score": 0.14534343779087067,
+        "token": 1064,
+        "token_str": "|",
+        "sequence": "solve 24 = 1601 * c - 1605 * c for c. \\ n solution : |"
+      },
+      {
+        "score": 0.024775926023721695,
+        "token": 1029,
+        "token_str": "?",
+        "sequence": "solve 24 = 1601 * c - 1605 * c for c. \\ n solution :?"
+      },
+      {
+        "score": 0.007759167347103357,
+        "token": 999,
+        "token_str": "!",
+        "sequence": "solve 24 = 1601 * c - 1605 * c for c. \\ n solution :!"
+      }
+    ]
+  },
+  {
+    "model_name": "BertLMHeadModel",
+    "num_threads": 4,
+    "max_ram_mb": null,
+    "example_index": 0,
+    "cpu_usage_before": 90.2,
+    "cpu_usage_after": 27.2,
+    "mem_usage_before": 3398512640,
+    "mem_usage_after": 3402424320,
+    "elapsed_time_s": 1.5685207843780518,
+    "is_correct": 0,
+    "input_text": "Solve 24 = 1601*c - 1605*c for c.\\n",
+    "reference_solution": "-6",
+    "generated_text": [
+      {
+        "score": 0.6230772137641907,
+        "token": 1012,
+        "token_str": ".",
+        "sequence": "solve 24 = 1601 * c - 1605 * c for c. \\ n solution :."
+      },
+      {
+        "score": 0.19636833667755127,
+        "token": 1025,
+        "token_str": ";",
+        "sequence": "solve 24 = 1601 * c - 1605 * c for c. \\ n solution : ;"
+      },
+      {
+        "score": 0.1453438252210617,
+        "token": 1064,
+        "token_str": "|",
+        "sequence": "solve 24 = 1601 * c - 1605 * c for c. \\ n solution : |"
+      },
+      {
+        "score": 0.024775968864560127,
+        "token": 1029,
+        "token_str": "?",
+        "sequence": "solve 24 = 1601 * c - 1605 * c for c. \\ n solution :?"
+      },
+      {
+        "score": 0.007759165950119495,
+        "token": 999,
+        "token_str": "!",
+        "sequence": "solve 24 = 1601 * c - 1605 * c for c. \\ n solution :!"
+      }
+    ]
+  },
+  {
+    "model_name": "BertLMHeadModel",
+    "num_threads": 8,
+    "max_ram_mb": null,
+    "example_index": 0,
+    "cpu_usage_before": 14.4,
+    "cpu_usage_after": 58.6,
+    "mem_usage_before": 3402162176,
+    "mem_usage_after": 3399163904,
+    "elapsed_time_s": 0.672311544418335,
+    "is_correct": 0,
+    "input_text": "Solve 24 = 1601*c - 1605*c for c.\\n",
+    "reference_solution": "-6",
+    "generated_text": [
+      {
+        "score": 0.6230772137641907,
+        "token": 1012,
+        "token_str": ".",
+        "sequence": "solve 24 = 1601 * c - 1605 * c for c. \\ n solution :."
+      },
+      {
+        "score": 0.19636833667755127,
+        "token": 1025,
+        "token_str": ";",
+        "sequence": "solve 24 = 1601 * c - 1605 * c for c. \\ n solution : ;"
+      },
+      {
+        "score": 0.1453438252210617,
+        "token": 1064,
+        "token_str": "|",
+        "sequence": "solve 24 = 1601 * c - 1605 * c for c. \\ n solution : |"
+      },
+      {
+        "score": 0.024775968864560127,
+        "token": 1029,
+        "token_str": "?",
+        "sequence": "solve 24 = 1601 * c - 1605 * c for c. \\ n solution :?"
+      },
+      {
+        "score": 0.007759165950119495,
+        "token": 999,
+        "token_str": "!",
+        "sequence": "solve 24 = 1601 * c - 1605 * c for c. \\ n solution :!"
+      }
+    ]
+  }
+]

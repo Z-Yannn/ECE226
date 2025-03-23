@@ -1,0 +1,62 @@
+[
+  {
+    "model_name": "LlamaForCausalLM",
+    "num_threads": 1,
+    "max_ram_mb": null,
+    "example_index": 0,
+    "cpu_usage_before": 3.0,
+    "cpu_usage_after": 15.9,
+    "mem_usage_before": 10972999680,
+    "mem_usage_after": 7440961536,
+    "elapsed_time_s": 109.41145420074463,
+    "is_correct": 0,
+    "input_text": "Solve 24 = 1601*c - 1605*c for c.\\n",
+    "reference_solution": "-6",
+    "generated_text": "\nSince we have 24 variables, we can use the same method as we did in solving the earlier problem.\n\n1. Start by rearranging the equation to reduce it to a single variable:\n\n    c = 1601 * 1 - 1605 * 1\n\n2. Solve for the variable c:\n\n    c = 1601 * (-1) + 1605 * (1)\n\n3. Substitute the solution back into the original equation:\n\n    1601 * (-1) + 1605 * (1) = 1601 * 1 - 1605 * 1\n\n    (1601 * (-1)) + 1605 = 0\n\n4. Solve for the solution:\n\n    (-1) + 1605 = 0\n    (-1) * 2 = 1605\n    (-1) * 2 = -1605\n    (-1) * 2 = 3250\n    (-1) = 1601\n\n5. Replace the solution in the original equation:\n\n    c = 1601 * 1 - 1605 * 1\n    c = 3250 * 1\n\n6. The final answer is:\n\n    c = 3250 * 1\n    c = 3250\n\n7. Finally, the answer is the sum of the two previous values:\n\n    c = 1601 + 3250 = 4851\n    c = 3250\n\nThe final answer is 4851."
+  },
+  {
+    "model_name": "LlamaForCausalLM",
+    "num_threads": 2,
+    "max_ram_mb": null,
+    "example_index": 0,
+    "cpu_usage_before": 20.0,
+    "cpu_usage_after": 22.6,
+    "mem_usage_before": 7440961536,
+    "mem_usage_after": 7448449024,
+    "elapsed_time_s": 52.34921383857727,
+    "is_correct": 0,
+    "input_text": "Solve 24 = 1601*c - 1605*c for c.\\n",
+    "reference_solution": "-6",
+    "generated_text": "\nSince the question asks for a solution to the equation 24 = 1601*c - 1605*c, we can write the equation as:\n\n24 = 1601 * (c - 1605)\n\nSubstituting c with its value:\n\nc = 1601 - 1605\n\nSolving for c:\n\nc = 1601 - 1605\nc = 1601 - 1605 = 1596\nc = 1596\n\nTherefore, the solution to the equation is:\n\nc = 1596\n\nSo, the solution to the equation 24 = 1601*c - 1605*c is 1596."
+  },
+  {
+    "model_name": "LlamaForCausalLM",
+    "num_threads": 4,
+    "max_ram_mb": null,
+    "example_index": 0,
+    "cpu_usage_before": 33.3,
+    "cpu_usage_after": 36.9,
+    "mem_usage_before": 7448449024,
+    "mem_usage_after": 7442821120,
+    "elapsed_time_s": 32.98946166038513,
+    "is_correct": 0,
+    "input_text": "Solve 24 = 1601*c - 1605*c for c.\\n",
+    "reference_solution": "-6",
+    "generated_text": "\nTo solve 24 = 1601*c - 1605*c for c, we can use the quadratic formula:\n\nc = (1601*1605 - 1605*1601)/(24-1601)\n\nc = (1601/1605)*1605\n\nc = 1601/1605\n\nc = 11.5\n\nTherefore, c = 11.5."
+  },
+  {
+    "model_name": "LlamaForCausalLM",
+    "num_threads": 8,
+    "max_ram_mb": null,
+    "example_index": 0,
+    "cpu_usage_before": 50.0,
+    "cpu_usage_after": 67.1,
+    "mem_usage_before": 7442821120,
+    "mem_usage_after": 7456026624,
+    "elapsed_time_s": 43.24381065368652,
+    "is_correct": 0,
+    "input_text": "Solve 24 = 1601*c - 1605*c for c.\\n",
+    "reference_solution": "-6",
+    "generated_text": "\nLet's define the given equation:\n\n24 = 1601 * c - 1605 * c\n\nSolving this equation for c:\n\nc = 1601 / (1605 - 1601)\n\nc = 1605 / (1605 - 1601)\n\nc = 1605 / (1605 + 1601)\n\nc = 1605 / 1\n\nTherefore, the answer to the question is:\n\nc = 1605 / 1"
+  }
+]
